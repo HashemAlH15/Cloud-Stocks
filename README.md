@@ -86,25 +86,26 @@ The pipeline operates with an intentional 30-second ingestion interval. True tic
 
 ## Screenshots
 - Python Script Running:
-- 
-  > ![Architecture Diagram](screenshots/python_script.png)
+  
+   ![Architecture Diagram](screenshots/python_script.png)
   
 - Kinesis Data Streams console showing incoming records:
-- 
-  > ![Architecture Diagram](screenshots/kinesis_1.png)
-  > ![Architecture Diagram](screenshots/kinesis_2.png)
+  
+   ![Architecture Diagram](screenshots/kinesis_1.png)
+   ![Architecture Diagram](screenshots/kinesis_2.png)
   
 - Lambda invocation logs in CloudWatch
-- 
-- > ![Architecture Diagram](screenshots/lambda_log_1.png)
-  > ![Architecture Diagram](screenshots/lambda_log_2.png)
+  
+    ![Architecture Diagram](screenshots/lambda_log_1.png)
+    ![Architecture Diagram](screenshots/lambda_log_2.png)
   
 - Athena query results against S3 data
   
-   > ![Architecture Diagram](screenshots/athena_query_1.png)
-   > ![Architecture Diagram](screenshots/athena_query_2.png)
+     ![Architecture Diagram](screenshots/athena_query_1.png)
+     ![Architecture Diagram](screenshots/athena_query_2.png)
    
 - SNS alert email/SMS received
-  > ![Architecture Diagram](screenshots/sns_subscription.png)
+  
+    ![Architecture Diagram](screenshots/sns_subscription.png)
 
 ---
