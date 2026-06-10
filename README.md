@@ -85,11 +85,8 @@ The pipeline operates with an intentional 30-second ingestion interval. True tic
 ---
 
 ## Screenshots
-
-> 📌 *[Add screenshots to `/screenshots/` and embed here]*
-
-Suggested screenshots to include:
-- Kinesis Data Streams console showing incoming records
+- Kinesis Data Streams console showing incoming records:
+  > !(screenshots/kinesis_1.png)
 - Lambda invocation logs in CloudWatch
 - DynamoDB table with processed stock records
 - Athena query results against S3 data
