@@ -91,8 +91,15 @@ The pipeline operates with an intentional 30-second ingestion interval. True tic
   > ![Architecture Diagram](screenshots/kinesis_2.png)
   
 - Lambda invocation logs in CloudWatch
-- DynamoDB table with processed stock records
+- 
+- > ![Architecture Diagram](screenshots/lambda_log_1.png)
+  > ![Architecture Diagram](screenshots/lambda_log_2.png)
+  
 - Athena query results against S3 data
+  
+   > ![Architecture Diagram](screenshots/lambda_log_1.png)
+   > ![Architecture Diagram](screenshots/lambda_log_2.png)
+   
 - SNS alert email/SMS received
 
 ---
