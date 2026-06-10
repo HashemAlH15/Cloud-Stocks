@@ -31,8 +31,8 @@ I have a genuine interest in the stock market and wanted to experiment with AWS 
 
 ## AWS Services Used
 
-| Service | Purpose | Why This Service |
-| --- | --- | --- |
+| Service | Purpose |
+| --- | --- |
 | Amazon Kinesis Data Streams | Real-time data ingestion | 
 | AWS Lambda (processor) | Stream processing & anomaly detection |
 | AWS Lambda (trend evaluator) | Trend evaluation & alert triggering |
