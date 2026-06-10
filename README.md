@@ -12,7 +12,7 @@ I have a genuine interest in the stock market and wanted to experiment with AWS 
 
 ## Architecture Diagram
 
-> 📌 *[Insert architecture diagram here — see `/architecture/diagram.png`]*
+> ![Architecture Diagram](architecture/diagram.png)
 
 ---
 
