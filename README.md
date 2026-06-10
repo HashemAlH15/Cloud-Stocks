@@ -33,16 +33,16 @@ I have a genuine interest in the stock market and wanted to experiment with AWS 
 
 | Service | Purpose | Why This Service |
 | --- | --- | --- |
-| Amazon Kinesis Data Streams | Real-time data ingestion | Managed streaming service built for high-throughput, ordered event ingestion |
-| AWS Lambda (processor) | Stream processing & anomaly detection | Serverless — no idle compute cost; scales automatically with stream shards |
-| AWS Lambda (trend evaluator) | Trend evaluation & alert triggering | Decouples alerting logic from processing logic; single responsibility per function |
-| Amazon DynamoDB | Low-latency storage of processed data | Single-digit millisecond reads; schema-flexible for varying stock record structures |
-| Amazon S3 | Raw data archiving & query results storage | Durable, cheap object storage; native integration with Athena for querying |
-| AWS Glue Data Catalog | Schema cataloging for S3 data | Automatically structures raw S3 data so Athena can query it without manual schema setup |
-| Amazon Athena | Historical SQL querying | Serverless query engine — pay per query, no infrastructure to manage |
-| Amazon SNS | Real-time alerting (Email/SMS) | Fully managed pub/sub; decouples alert delivery from trend evaluation logic |
-| AWS IAM | Access control & security | Least-privilege roles scoped per Lambda function; no hardcoded credentials |
-| Amazon CloudWatch | Monitoring & logging | Native Lambda integration; tracks errors, invocation counts, and latency |
+| Amazon Kinesis Data Streams | Real-time data ingestion | 
+| AWS Lambda (processor) | Stream processing & anomaly detection |
+| AWS Lambda (trend evaluator) | Trend evaluation & alert triggering |
+| Amazon DynamoDB | Low-latency storage of processed data | 
+| Amazon S3 | Raw data archiving & query results storage | 
+| AWS Glue Data Catalog | Schema cataloging for S3 data | 
+| Amazon Athena | Historical SQL querying | 
+| Amazon SNS | Real-time alerting (Email/SMS) | 
+| AWS IAM | Access control & security |
+| Amazon CloudWatch | Monitoring & logging | 
 
 
 ## Well-Architected Framework Alignment
