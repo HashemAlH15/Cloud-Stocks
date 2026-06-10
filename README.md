@@ -32,7 +32,7 @@ I have a genuine interest in the stock market and wanted to experiment with AWS 
 ## AWS Services Used
 
 | Service | Purpose | Why This Service |
-
+| --- | --- | --- |
 | Amazon Kinesis Data Streams | Real-time data ingestion | Managed streaming service built for high-throughput, ordered event ingestion |
 | AWS Lambda (processor) | Stream processing & anomaly detection | Serverless — no idle compute cost; scales automatically with stream shards |
 | AWS Lambda (trend evaluator) | Trend evaluation & alert triggering | Decouples alerting logic from processing logic; single responsibility per function |
@@ -43,7 +43,7 @@ I have a genuine interest in the stock market and wanted to experiment with AWS 
 | Amazon SNS | Real-time alerting (Email/SMS) | Fully managed pub/sub; decouples alert delivery from trend evaluation logic |
 | AWS IAM | Access control & security | Least-privilege roles scoped per Lambda function; no hardcoded credentials |
 | Amazon CloudWatch | Monitoring & logging | Native Lambda integration; tracks errors, invocation counts, and latency |
----
+
 
 ## Well-Architected Framework Alignment
 
