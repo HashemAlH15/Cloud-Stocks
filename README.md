@@ -49,7 +49,6 @@ I have a genuine interest in the stock market and wanted to experiment with AWS 
 
 **Reliability**
 - Kinesis Data Streams retains records for 24 hours by default, ensuring no data loss if Lambda is temporarily throttled or unavailable.
-- Lambda Dead Letter Queue (DLQ) configured to capture failed processing events for manual review.
 
 **Performance Efficiency**
 - DynamoDB provides single-digit millisecond read latency for processed stock records regardless of dataset size.
