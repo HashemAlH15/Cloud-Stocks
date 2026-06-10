@@ -6,7 +6,7 @@ An event-driven, serverless AWS pipeline that ingests, processes, stores, and an
 
 ## Problem Statement
 
-I have a genuine interest in the stock market and wanted to experiment with AWS to build something that could actually benefit me in some way — even if it doesn't replace the real tools out there. I found myself manually checking prices and missing movements I cared about, so I figured why not try and solve that with services on AWS. This project is the result of that — a serverless, event-driven pipeline that streams real-time stock data, detects anomalies, and sends me an alert when something significant happens. It gave me a reason to get hands-on with services like Kinesis, Lambda, and SNS in a context that felt meaningful.
+I have a genuine interest in the stock market and wanted to experiment with AWS to build something that could actually benefit me in some way, even if it doesn't replace the real tools out there. I found myself manually checking prices and missing movements I cared about, so I figured why not try and solve that with services on AWS. This project is the result of that, a serverless, event-driven pipeline that streams real-time stock data, detects anomalies, and sends me an alert when something significant happens. It gave me a reason to get hands-on with services like Kinesis, Lambda, and SNS in a context that felt meaningful.
 
 ---
 
